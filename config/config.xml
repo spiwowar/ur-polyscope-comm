@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+		<move>
+			<!-- Move type: only MOVEL, MOVEJ or MOVEP allowed -->
+			<type>MOVEL</type>
+			<!-- Move speed: 0-100% -->
+			<velocity>100</velocity>
+			<!-- Move acceleration: 0-100% -->
+			<acceleration>50</acceleration>
+			<!-- Coordinate system: only Joint or Carthesian allowed -->
+			<coordinate>Joint</coordinate>
+		</move>
+		<controller>
+			<output>
+				<!-- Controller outputs: only ON or OFF allowed -->
+				<zero>on</zero>
+				<one>on</one>
+				<two>on</two>
+				<three>on</three>
+				<four>on</four>
+				<five>on</five>
+				<six>on</six>
+				<seven>on</seven>
+			</output>
+			<!-- Move delay: 0-9999 ms -->
+			<delay>50</delay>
+		</controller>
+ 	<!-- Probes -->
+ 	<probes>
+ 		<!-- Probes freq: 1-125 -->
+ 		<freq>1</freq>
+ 		<!-- Probes count: 0-999999 -->
+ 		<count>12000</count>
+ 	</probes>
+		<!-- IP to connect to server -->
+		<ip>127.0.0.1</ip>
+		<file>
+			<!-- Directory path to save files -->
+			<directory>user.home</directory>
+		</file>
+</configuration>
